@@ -1,0 +1,34 @@
+[
+  {
+    "userId": "987654",
+    "items": [
+      {
+        "productId": "789012",
+        "quantity": 2
+      },
+      {
+        "productId": "345678",
+        "quantity": 1
+      }
+    ],
+    "id": 1
+  },
+  {
+    "userId": "987655",
+    "items": [
+      {
+        "productId": "789012",
+        "quantity": 2
+      },
+      {
+        "productId": "789013",
+        "quantity": 8
+      },
+      {
+        "productId": "345678",
+        "quantity": 1
+      }
+    ],
+    "id": 2
+  }
+]
