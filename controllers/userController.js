@@ -18,11 +18,14 @@ function getUserById(userId) {
   return users.find(user => user.id === userId);
 }
 
+
+
 // {
 //     "username": "john_doe",
 //     "email": "john@example.com",
 //     "password": "password123"
 //   }
+
 // {
 //     "username": "updated_username",
 //     "email": "updated_email@example.com"
