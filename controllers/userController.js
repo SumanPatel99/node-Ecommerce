@@ -18,8 +18,7 @@ function getUserById(userId) {
   return users.find(user => user.id === userId);
 }
 
-
-
+//signup requestdata
 // {
 //     "username": "john_doe",
 //     "email": "john@example.com",
@@ -30,6 +29,8 @@ function getUserById(userId) {
 //     "username": "updated_username",
 //     "email": "updated_email@example.com"
 //   }
+
+
 function createUser(userData) {
   const users = getUsers();
   const newUser = {
